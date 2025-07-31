@@ -1,0 +1,58 @@
+/* cat-theme.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Very dark gray/black */
+    color: #e0e0e0; /* light gray text */
+}
+
+a.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI Black', sans-serif;
+}
+
+table.table-dark > thead > tr > th {
+    border-bottom: 2px solid #444;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #1c1c1c;
+}
+
+.btn-outline-primary {
+    border-color: #a3a3a3;
+    color: #a3a3a3;
+}
+.btn-outline-primary:hover {
+    background-color: #5a5a5a;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-danger {
+    border-color: #c94c4c;
+    color: #c94c4c;
+}
+.btn-outline-danger:hover {
+    background-color: #a83232;
+    color: #fff;
+    border-color: #fff;
+}
+
+h2 {
+    font-family: 'Segoe UI Black', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* Buttons spacing */
+.btn {
+    font-weight: 600;
+}
+
+/* Add subtle shadow for hovered rows */
+table.table-hover tbody tr:hover {
+    background-color: #2a2a2a;
+}
